@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HomeWork2 {
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         int dayNumber = 0;
         System.out.println("Por favor ingrese un dia\n-->");
@@ -34,12 +34,11 @@ public class HomeWork2 {
             default:
                 System.out.println("Introduce un dia de la semana valido");
         }
-        if (dayNumber > 0 && dayNumber < 8){
+        if (dayNumber > 0 && dayNumber < 8) {
             System.out.println("El numero del dia es " + dayNumber);
         }
-
-
-
+        String result = (dayNumber % 2 == 0 ) ? "El numero es par " : "El numero es impar";
+        System.out.println(result);
 
     }
 }
