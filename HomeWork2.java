@@ -6,28 +6,28 @@ public class HomeWork2 {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
-        System.out.println("Please enter a day of the week number\n-->");
+        System.out.println("Por favor ingrese un dia\n-->");
         String dayName = scanner.nextLine();
         switch (dayName) {
-            case "Monday":
+            case "Lunes":
                 System.out.println("1");
                 break;
-            case "Tuesday":
+            case "Martes":
                 System.out.println("2");
                 break;
-            case "Wednesday":
+            case "Miercoles":
                 System.out.println("3");
                 break;
-            case "Thursday":
+            case "Jueves":
                 System.out.println("4");
                 break;
-            case "Friday":
+            case "Viernes":
                 System.out.println("5");
                 break;
-            case "Saturday":
+            case "Sabado":
                 System.out.println("6");
                 break;
-            case "Sunday":
+            case "Domingo":
                 System.out.println("7");
                 break;
         }
