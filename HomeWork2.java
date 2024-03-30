@@ -34,6 +34,7 @@ public class HomeWork2 {
             default:
                 System.out.println("Introduce un dia de la semana valido");
         }
+
         if (dayNumber > 0 && dayNumber < 8) {
             System.out.println("El numero del dia es " + dayNumber);
         }
